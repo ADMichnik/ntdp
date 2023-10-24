@@ -11,6 +11,7 @@ const routes: Routes = [
   { path: 'services-page', component: AssistanceComponent },
   { path: 'about-us-page', component: AboutUsComponent },
   { path: 'contact-page', component: ContactComponent },
+  { path: '**', redirectTo: '/landing-page' },
 ];
 
 @NgModule({
