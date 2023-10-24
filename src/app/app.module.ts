@@ -11,6 +11,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { LandingComponent } from './components/landing/landing.component';
 import { AssistanceComponent } from './components/assistance/assistance.component';
 import { MatExpansionModule } from '@angular/material/expansion';
+import { GoogleMapsModule } from '@angular/google-maps';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { MatExpansionModule } from '@angular/material/expansion';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatExpansionModule,
+    GoogleMapsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
