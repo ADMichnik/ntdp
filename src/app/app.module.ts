@@ -10,6 +10,7 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { LandingComponent } from './components/landing/landing.component';
 import { AssistanceComponent } from './components/assistance/assistance.component';
+import { MatExpansionModule } from '@angular/material/expansion';
 
 @NgModule({
   declarations: [
@@ -19,14 +20,15 @@ import { AssistanceComponent } from './components/assistance/assistance.componen
     AboutUsComponent,
     ContactComponent,
     LandingComponent,
-    AssistanceComponent
+    AssistanceComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatExpansionModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
